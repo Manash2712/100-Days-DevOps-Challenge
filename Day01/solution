@@ -1,0 +1,5 @@
+For this task firstly we will need to ssh the App Server 2.
+-> ssh steve@stapp02
+Now we will add user with no interactive shell.
+-> useradd -s /sbin/nologin jim
+We can verify if jim user has been added or not using id command.
