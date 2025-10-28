@@ -1,0 +1,5 @@
+For this task firstly we will need to ssh the App Server 1.
+-> ssh thor@stapp01
+Now we will add user with no interactive shell.
+-> sudo useradd -e 2026-01-01 javed
+We can verify if javed user has been added or not using id command.
