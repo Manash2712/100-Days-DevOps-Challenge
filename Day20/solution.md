@@ -64,4 +64,9 @@ Run the curl test from jumphost
 curl http://stapp01:8098/index.php 
 ```
 
+#### Key takeaways from the task: 
+- Nginx and PHP-FPM integration: Learned to configure Nginx as a web server and PHP-FPM as the process manager for PHP scripts.
+- Unix socket configuration: The task reinforced the concept of using a Unix domain socket for inter-process communication between Nginx and PHP-FPM, which can be more efficient than a TCP/IP socket.
+- Server configuration: Gained hands-on experience in installing software (\(Nginx\), \(php-fpm\)) and configuring them to run on specific ports and use designated directories.
+- Testing the deployment: The ability to use a command like curl to test the application from another host is a crucial part of verifying the successful setup of a web service.
  
